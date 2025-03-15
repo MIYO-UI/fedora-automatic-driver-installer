@@ -1,0 +1,11 @@
+[Unit]
+Description=Automatic Graphics Driver Installer
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/auto-driver-installer --auto
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

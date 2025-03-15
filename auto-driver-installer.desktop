@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Graphics Driver Installer
+Name[pl]=Instalator sterowników graficznych
+Comment=Automatically install recommended graphics drivers
+Comment[pl]=Automatycznie instaluj zalecane sterowniki graficzne
+Exec=pkexec /usr/bin/auto-driver-installer
+Icon=system-software-update
+Terminal=false
+Type=Application
+Categories=System;Settings;
+Keywords=driver;graphics;nvidia;amd;intel;
